@@ -15,6 +15,9 @@
         elseif($tmp == 'quanLyDanhMucBaiViet' && $query == 'sua'){
             include('quanlydanhmucbv/sua.php');
         }
+        elseif($tmp == 'quanLyTaiKhoan' && $query == 'lietke'){
+            include('quanLyTaiKhoan/lietke.php');
+        }
         else{
             echo 'Dasboard';
         }
