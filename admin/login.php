@@ -29,7 +29,6 @@
 </head>
 <body>
 
-<div class="top_link"><a href="../index.php">Về trang chủ</a></div>
 <form class="login" action="login.php" method="POST">
   <h2 style="text-align: center">ADMIN LOGIN</h2>
   <input type="text" placeholder="Username" name="username">
